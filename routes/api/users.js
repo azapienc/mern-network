@@ -69,6 +69,7 @@ router.post('/',
                     if (error) throw error;
                     res.json({ token });
                 }
+
             );
         } catch (error) {
             console.log(error.message);
